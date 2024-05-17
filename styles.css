@@ -3,6 +3,8 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: black;
+    color: white;
   }
   
   h1 {
@@ -26,28 +28,31 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    color: white;
+    background-color: #333;
+    border: 1px solid #666;
   }
   
   input[type="date"] {
     padding: 5px;
   }
   
-  #agenda-items {
-    border: 1px solid #ccc;
+  #contact-items {
+    border: 1px solid #666;
     padding: 20px;
     margin-top: 30px;
   }
   
-  #agenda-items h2 {
+  #contact-items h2 {
     margin-top: 0;
   }
   
-  #agenda-items p {
+  #contact-items p {
     margin-bottom: 5px;
   }
   
   button {
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -55,5 +60,5 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #c00;
   }

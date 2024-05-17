@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula</title>
+    <title>Agenda de Contatos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Agenda App</h1>
-    <form id="agenda-form">
-        <label for="title">Title:</label>
-        <input type="text" id="title" name="title" required>
+    <h1>Agenda de Contatos</h1>
+    <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
         <br>
-        <label for="description">Description:</label>
-        <textarea id="description" name="description" required></textarea>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
         <br>
-        <label for="due-date">Due Date:</label>
-        <input type="date" id="due-date" name="due-date" required>
+        <label for="number">Número:</label>
+        <input type="tel" id="number" name="number">
         <br>
-        <button type="submit">Add to Agenda</button>
+        <button type="submit">Adicionar Contato</button>
     </form>
-    <div id="agenda-items"></div>
-    <script src="script.js"></script>  
+    <div id="contact-items"></div>
+    <script src="script.js"></script>
 </body>
 </html>
